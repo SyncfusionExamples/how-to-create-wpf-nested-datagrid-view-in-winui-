@@ -1,8 +1,8 @@
-# How to create WPF Nested DataGrid View (Master Details View) in WinUI?
+# How to create Nested DataGrid View (Master Details View) in WinUI?
 
 ## About the sample
 
-This example illustrates how to create WPF Nested DataGrid View (Master Details View) in WinUI?
+This example illustrates how to create Nested DataGrid View (Master Details View) in WinUI?
 
 [WinUI DataGrid](https://www.syncfusion.com/winui-controls/datagrid) (SfDataGrid) provides support to represent the hierarchical data in the form of nested tables using Master-Details View. You can expand or collapse the nested tables by using an expander in a row or programmatically.
 
@@ -135,6 +135,8 @@ You can hide the expander from the view when corresponding RelationalColumn prop
                        HideEmptyGridViewDefinition="True"
                        ItemsSource="{Binding Path=OrdersDetails}"/>
 ```
+
+![DetailsView_HideEmptyGridViewDefinition](DetailsView_HideEmptyGridViewDefinition.png)
 
 Take a moment to peruse the [WinUI DataGrid - Nested Grid](https://help.syncfusion.com/winui/datagrid/master-details-view) documentation, where you can find about nested grid, with code examples.
 
